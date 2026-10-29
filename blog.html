@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <meta name="builder" content="Stronglify">
-<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/295/favicon-1792593162.svg">
-<title>Notas de la vitrina · Vitrina</title>
-<meta name="description" content="Guías cortas para elegir quesos, vinos y charcutería, armar una tabla con criterio y conservar bien lo que compras.">
+<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/295/favicon-1793290625.svg">
+<title>Notas de la despensa · Vitrina</title>
+<meta name="description" content="Guías cortas para elegir, servir y guardar lo que llevas a la mesa.">
 <meta name="robots" content="index">
 <link rel="canonical" href="https://stronglifythemes.github.io/vitrina/"><style>
 html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
@@ -15,112 +15,158 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
 <script>tailwind.config={theme:{extend:{colors:{paper:'#F7F5F6',ink:'#1A1114',accent:'#5A1230'},fontFamily:{sans:['Jost','sans-serif'],display:['Prata','serif']}}}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Prata&family=Jost:wght@400;600;700;800&display=swap" rel="stylesheet">
-<style>:focus-visible{outline:2px solid currentColor;outline-offset:4px}</style></head>
-<body class="overflow-x-hidden bg-paper font-sans leading-[1.55] text-ink selection:bg-accent selection:text-paper">
-  <header class="relative z-20 flex items-center justify-between gap-[18px] px-[5vw] py-[15px] min-[721px]:px-[max(4vw,calc((100%_-_1760px)/2))] min-[721px]:py-[18px]">
-  <a href="./">
-    <img src="https://placehold.co/112x32" alt="Vitrina" class="h-8 w-auto">
-  </a>
-  <nav id="site-nav" class="absolute inset-x-[5vw] top-full hidden flex-col items-start gap-[22px] bg-paper p-[18px] min-[721px]:static min-[721px]:flex min-[721px]:flex-row min-[721px]:items-center min-[721px]:bg-transparent min-[721px]:p-0">
-    
-    <a href="./" class="text-[.9rem] font-bold underline decoration-transparent underline-offset-[5px] transition-colors duration-200 hover:decoration-current">Inicio</a>
-    
-    <a href="./page" class="text-[.9rem] font-bold underline decoration-transparent underline-offset-[5px] transition-colors duration-200 hover:decoration-current">Nosotros</a>
-    
-    <a href="./blog" class="text-[.9rem] font-bold underline decoration-transparent underline-offset-[5px] transition-colors duration-200 hover:decoration-current">Blog</a>
-    
-  </nav>
-  <button id="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="site-nav" aria-expanded="false" class="min-h-11 cursor-pointer border-0 bg-accent px-4 text-[.82rem] font-bold leading-[normal] text-paper transition duration-200 hover:bg-ink active:scale-[0.98] motion-reduce:transition-none min-[721px]:hidden">Menú</button>
+<link href="https://fonts.googleapis.com/css2?family=Prata&family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>:focus-visible{outline:2px solid currentColor;outline-offset:3px}.texto{font-size:1.0625rem;line-height:1.7}.texto p,.texto ul,.texto ol{margin:0 0 1.25rem}.texto ul,.texto ol{padding-left:1.4rem;list-style:disc}.texto li{margin-bottom:.5rem;padding-left:.25rem}.texto li::marker{color:#5A1230}.texto h2{margin:3rem 0 1rem;font-family:Prata,serif;font-size:clamp(1.75rem,3vw,2.4rem);line-height:1.05;letter-spacing:-.03em}.texto h3{margin:2.25rem 0 .75rem;font-family:Prata,serif;font-size:1.45rem;line-height:1.15;letter-spacing:-.01em}.texto a{color:#5A1230;font-weight:600;text-decoration:underline;text-decoration-color:rgba(90,18,48,.35);text-underline-offset:4px;transition:text-decoration-color .2s}.texto a:hover{text-decoration-color:currentColor}.texto blockquote{margin:2.5rem 0;padding:1.75rem 2rem;border-radius:1.5rem;background:#5A1230;color:#F7F5F6;font-family:Prata,serif;font-size:1.5rem;line-height:1.25}.texto blockquote p{margin:0}.texto figure{margin:2.5rem 0}.texto img{width:100%;height:auto;border-radius:1.5rem;object-fit:cover}.texto figcaption{margin-top:.75rem;font-size:.9rem;color:rgba(26,17,20,.7)}</style></head>
+<body class="overflow-x-hidden bg-paper font-sans leading-[1.6] text-ink antialiased selection:bg-accent selection:text-paper">
+  <header class="relative z-20">
+  <div class="mx-auto flex max-w-[1440px] items-center justify-between gap-6 px-5 py-4 md:grid md:grid-cols-[1fr_auto_1fr] md:px-10 md:py-6">
+    <nav id="site-nav" aria-label="Principal" class="absolute inset-x-5 top-full hidden flex-col gap-1 rounded-2xl bg-white p-3 shadow-[0_24px_48px_-24px_rgba(26,17,20,.45)] md:static md:order-first md:flex md:flex-row md:items-center md:gap-8 md:bg-transparent md:p-0 md:shadow-none">
+      
+      <a href="./" class="rounded-xl px-3 py-2.5 font-medium underline decoration-transparent underline-offset-[6px] transition-colors duration-200 hover:decoration-accent md:p-0">Inicio</a>
+      
+      <a href="./page" class="rounded-xl px-3 py-2.5 font-medium underline decoration-transparent underline-offset-[6px] transition-colors duration-200 hover:decoration-accent md:p-0">Nosotros</a>
+      
+      <a href="./blog" class="rounded-xl px-3 py-2.5 font-medium underline decoration-transparent underline-offset-[6px] transition-colors duration-200 hover:decoration-accent md:p-0">Blog</a>
+      
+    </nav>
+    <a href="./" class="md:justify-self-center">
+      <img src="https://placehold.co/128x36" alt="Vitrina" class="h-9 w-auto">
+    </a>
+    <p class="hidden text-[.95rem] text-ink/70 md:block md:justify-self-end">Calle 81 # 11-32, Zona Rosa</p>
+    <button id="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="site-nav" aria-expanded="false" class="min-h-11 cursor-pointer rounded-full bg-accent px-5 text-[.9rem] font-semibold text-paper transition duration-200 hover:bg-ink active:scale-[0.98] motion-reduce:transition-none md:hidden">Menú</button>
+  </div>
 </header>
 
-<main>
-  <section class="bg-ink px-[7vw] py-[70px] text-paper min-[721px]:px-[max(7vw,calc((100%_-_1680px)/2))] min-[721px]:pb-[5vw] min-[721px]:pt-[6vw]">
-    <h1 class="mb-[26px] max-w-[16ch] font-display text-[clamp(2.2rem,6vw,5.6rem)] leading-[.92] tracking-[-.06em]">Notas de la vitrina</h1>
-    <p class="max-w-[54ch] text-[1.05rem]">Guías cortas para elegir quesos, vinos y charcutería, armar una tabla con criterio y conservar bien lo que compras.</p>
-  </section>
-
-  <section class="bg-paper px-[7vw] pb-20 pt-[70px] min-[721px]:px-[max(7vw,calc((100%_-_1680px)/2))] min-[721px]:pb-[clamp(64px,11vw,144px)] min-[721px]:pt-[clamp(56px,10vw,130px)]">
-    <div class="grid grid-cols-1 gap-x-[28px] gap-y-14 min-[721px]:grid-cols-2 min-[1024px]:grid-cols-3">
-      
-      <article>
-        <a href="./article" class="group block">
-          <img loading="lazy" src="https://media.stronglify.com/295/vitrina-09-1792528277.jpg" alt="Foto del artículo" class="aspect-[4/3] w-full object-cover">
-          <p class="mt-5 text-[.8rem] font-semibold uppercase tracking-[.16em] text-accent">Tablas</p>
-          <h2 class="mt-2 font-display text-[clamp(1.4rem,2.2vw,1.9rem)] leading-[1.05] tracking-[-.02em] underline decoration-transparent underline-offset-[5px] transition-colors duration-200 group-hover:decoration-current">Cómo armar una tabla para cuatro sin comprar de más</h2>
-          <p class="mt-3 max-w-[52ch] text-[.95rem] text-ink/75">Porciones, contrastes y el orden en que conviene servir cada producto para que nada sobre.</p>
-        </a>
+<main class="mx-auto max-w-[1440px] px-5 pb-24 pt-6 md:px-10 lg:pb-32 lg:pt-10">
+  <div>
+    <h1 class="font-display text-[clamp(2.6rem,6.4vw,5.75rem)] leading-[.95] tracking-[-.04em]">Notas de la despensa</h1>
+    <p class="mt-6 max-w-[60ch] text-lg leading-relaxed text-ink/80">Guías cortas para elegir, servir y guardar lo que llevas a la mesa.</p>
+  </div>
+  <ul class="mt-12 grid gap-4 md:grid-cols-2 lg:mt-16 lg:grid-cols-3">
+    
+    <li>
+      <article class="flex h-full flex-col rounded-3xl bg-white p-3">
+        <div class="relative aspect-[4/3] overflow-hidden rounded-xl">
+          <img src="https://media.stronglify.com/295/vitrina-09-1792528277.jpg" alt="Foto de la nota" class="absolute inset-0 h-full w-full object-cover">
+        </div>
+        <div class="flex flex-1 flex-col px-4 pb-5 pt-5 lg:px-5">
+          <h2 class="font-display text-[1.6rem] leading-[1.08] tracking-[-.015em]"><a href="./article" class="underline decoration-transparent underline-offset-[5px] transition-colors duration-200 hover:decoration-accent">Cómo armar una tabla de quesos para cuatro</a></h2>
+          <p class="mt-3 text-ink/75">Tres texturas, un curado y algo dulce, sin que sobre la mitad.</p>
+          <p class="mt-auto pt-6 text-[.95rem] font-semibold text-accent">Tablas</p>
+        </div>
       </article>
-      
-      <article>
-        <a href="./article" class="group block">
-          <img loading="lazy" src="https://media.stronglify.com/295/vitrina-10-1792528282.jpg" alt="Foto del artículo" class="aspect-[4/3] w-full object-cover">
-          <p class="mt-5 text-[.8rem] font-semibold uppercase tracking-[.16em] text-accent">Quesos</p>
-          <h2 class="mt-2 font-display text-[clamp(1.4rem,2.2vw,1.9rem)] leading-[1.05] tracking-[-.02em] underline decoration-transparent underline-offset-[5px] transition-colors duration-200 group-hover:decoration-current">Brie, camembert y triple crema: en qué se diferencian</h2>
-          <p class="mt-3 max-w-[52ch] text-[.95rem] text-ink/75">Textura, intensidad y temperatura de servicio de tres quesos que suelen confundirse.</p>
-        </a>
+    </li>
+    
+    <li>
+      <article class="flex h-full flex-col rounded-3xl bg-white p-3">
+        <div class="relative aspect-[4/3] overflow-hidden rounded-xl">
+          <img src="https://media.stronglify.com/295/vitrina-10-1792528282.jpg" alt="Foto de la nota" class="absolute inset-0 h-full w-full object-cover">
+        </div>
+        <div class="flex flex-1 flex-col px-4 pb-5 pt-5 lg:px-5">
+          <h2 class="font-display text-[1.6rem] leading-[1.08] tracking-[-.015em]"><a href="./article" class="underline decoration-transparent underline-offset-[5px] transition-colors duration-200 hover:decoration-accent">Brie, camembert y triple crema: en qué se diferencian</a></h2>
+          <p class="mt-3 text-ink/75">Textura, intensidad y temperatura de tres quesos que se confunden.</p>
+          <p class="mt-auto pt-6 text-[.95rem] font-semibold text-accent">Quesos</p>
+        </div>
       </article>
-      
-      <article>
-        <a href="./article" class="group block">
-          <img loading="lazy" src="https://media.stronglify.com/295/vitrina-11-1792528287.jpg" alt="Foto del artículo" class="aspect-[4/3] w-full object-cover">
-          <p class="mt-5 text-[.8rem] font-semibold uppercase tracking-[.16em] text-accent">Vinos</p>
-          <h2 class="mt-2 font-display text-[clamp(1.4rem,2.2vw,1.9rem)] leading-[1.05] tracking-[-.02em] underline decoration-transparent underline-offset-[5px] transition-colors duration-200 group-hover:decoration-current">Qué vino abrir con una cena de quesos suaves</h2>
-          <p class="mt-3 max-w-[52ch] text-[.95rem] text-ink/75">Tres opciones fáciles de encontrar que acompañan sin tapar el sabor del queso.</p>
-        </a>
+    </li>
+    
+    <li>
+      <article class="flex h-full flex-col rounded-3xl bg-white p-3">
+        <div class="relative aspect-[4/3] overflow-hidden rounded-xl">
+          <img src="https://media.stronglify.com/295/vitrina-11-1792528287.jpg" alt="Foto de la nota" class="absolute inset-0 h-full w-full object-cover">
+        </div>
+        <div class="flex flex-1 flex-col px-4 pb-5 pt-5 lg:px-5">
+          <h2 class="font-display text-[1.6rem] leading-[1.08] tracking-[-.015em]"><a href="./article" class="underline decoration-transparent underline-offset-[5px] transition-colors duration-200 hover:decoration-accent">Qué vino abrir con quesos suaves</a></h2>
+          <p class="mt-3 text-ink/75">Tres opciones fáciles que acompañan sin tapar el sabor.</p>
+          <p class="mt-auto pt-6 text-[.95rem] font-semibold text-accent">Vinos</p>
+        </div>
       </article>
-      
-      <article>
-        <a href="./article" class="group block">
-          <img loading="lazy" src="https://media.stronglify.com/295/vitrina-12-1792528291.jpg" alt="Foto del artículo" class="aspect-[4/3] w-full object-cover">
-          <p class="mt-5 text-[.8rem] font-semibold uppercase tracking-[.16em] text-accent">Charcutería</p>
-          <h2 class="mt-2 font-display text-[clamp(1.4rem,2.2vw,1.9rem)] leading-[1.05] tracking-[-.02em] underline decoration-transparent underline-offset-[5px] transition-colors duration-200 group-hover:decoration-current">Prosciutto, serrano y jamón cocido: cómo servirlos</h2>
-          <p class="mt-3 max-w-[52ch] text-[.95rem] text-ink/75">Grosor del corte, temperatura y con qué acompañar cada uno en la mesa.</p>
-        </a>
+    </li>
+    
+    <li>
+      <article class="flex h-full flex-col rounded-3xl bg-white p-3">
+        <div class="relative aspect-[4/3] overflow-hidden rounded-xl">
+          <img src="https://media.stronglify.com/295/vitrina-12-1792528291.jpg" alt="Foto de la nota" class="absolute inset-0 h-full w-full object-cover">
+        </div>
+        <div class="flex flex-1 flex-col px-4 pb-5 pt-5 lg:px-5">
+          <h2 class="font-display text-[1.6rem] leading-[1.08] tracking-[-.015em]"><a href="./article" class="underline decoration-transparent underline-offset-[5px] transition-colors duration-200 hover:decoration-accent">Prosciutto, serrano e ibérico: cómo servirlos</a></h2>
+          <p class="mt-3 text-ink/75">Grosor del corte, temperatura y con qué acompañar cada uno.</p>
+          <p class="mt-auto pt-6 text-[.95rem] font-semibold text-accent">Curados</p>
+        </div>
       </article>
-      
-      <article>
-        <a href="./article" class="group block">
-          <img loading="lazy" src="https://media.stronglify.com/295/vitrina-13-1792528296.jpg" alt="Foto del artículo" class="aspect-[4/3] w-full object-cover">
-          <p class="mt-5 text-[.8rem] font-semibold uppercase tracking-[.16em] text-accent">Conservación</p>
-          <h2 class="mt-2 font-display text-[clamp(1.4rem,2.2vw,1.9rem)] leading-[1.05] tracking-[-.02em] underline decoration-transparent underline-offset-[5px] transition-colors duration-200 group-hover:decoration-current">Cuánto duran los quesos abiertos en la nevera</h2>
-          <p class="mt-3 max-w-[52ch] text-[.95rem] text-ink/75">Cómo envolverlos, dónde guardarlos y cuándo es mejor terminarlos el mismo día.</p>
-        </a>
+    </li>
+    
+    <li>
+      <article class="flex h-full flex-col rounded-3xl bg-white p-3">
+        <div class="relative aspect-[4/3] overflow-hidden rounded-xl">
+          <img src="https://media.stronglify.com/295/vitrina-13-1792528296.jpg" alt="Foto de la nota" class="absolute inset-0 h-full w-full object-cover">
+        </div>
+        <div class="flex flex-1 flex-col px-4 pb-5 pt-5 lg:px-5">
+          <h2 class="font-display text-[1.6rem] leading-[1.08] tracking-[-.015em]"><a href="./article" class="underline decoration-transparent underline-offset-[5px] transition-colors duration-200 hover:decoration-accent">Cuánto dura un queso abierto en la nevera</a></h2>
+          <p class="mt-3 text-ink/75">Cómo envolverlo y cuándo conviene terminarlo el mismo día.</p>
+          <p class="mt-auto pt-6 text-[.95rem] font-semibold text-accent">Conservación</p>
+        </div>
       </article>
-      
-      <article>
-        <a href="./article" class="group block">
-          <img loading="lazy" src="https://media.stronglify.com/295/vitrina-14-1792528301.jpg" alt="Foto del artículo" class="aspect-[4/3] w-full object-cover">
-          <p class="mt-5 text-[.8rem] font-semibold uppercase tracking-[.16em] text-accent">Despensa</p>
-          <h2 class="mt-2 font-display text-[clamp(1.4rem,2.2vw,1.9rem)] leading-[1.05] tracking-[-.02em] underline decoration-transparent underline-offset-[5px] transition-colors duration-200 group-hover:decoration-current">Cinco productos de despensa que vale la pena tener</h2>
-          <p class="mt-3 max-w-[52ch] text-[.95rem] text-ink/75">Aceites, conservas y mermeladas que resuelven una visita imprevista en minutos.</p>
-        </a>
+    </li>
+    
+    <li>
+      <article class="flex h-full flex-col rounded-3xl bg-white p-3">
+        <div class="relative aspect-[4/3] overflow-hidden rounded-xl">
+          <img src="https://media.stronglify.com/295/grad-04-1793290635.svg" alt="Foto de la nota" class="absolute inset-0 h-full w-full object-cover">
+        </div>
+        <div class="flex flex-1 flex-col px-4 pb-5 pt-5 lg:px-5">
+          <h2 class="font-display text-[1.6rem] leading-[1.08] tracking-[-.015em]"><a href="./article" class="underline decoration-transparent underline-offset-[5px] transition-colors duration-200 hover:decoration-accent">Cómo elegir un aceite de oliva extra virgen</a></h2>
+          <p class="mt-3 text-ink/75">Qué mirar en la etiqueta y cuándo usarlo en crudo.</p>
+          <p class="mt-auto pt-6 text-[.95rem] font-semibold text-accent">Aceites</p>
+        </div>
       </article>
-      
-    </div>
-  </section>
+    </li>
+    
+  </ul>
 </main>
 
-<footer class="grid grid-cols-1 gap-6 bg-accent px-[7vw] pb-[78px] pt-14 text-paper min-[721px]:grid-cols-[1.5fr_1fr_1fr] min-[721px]:px-[max(7vw,calc((100%_-_1680px)/2))] min-[721px]:pb-14">
-  <div>
-    <h2 class="font-display text-[clamp(2.3rem,5vw,5rem)] leading-[.9] tracking-[-.05em]">Vitrina</h2>
-    <p class="mt-4 max-w-[40ch]">Gourmet de importados en Bogotá. Atención hecha para que puedas comprar con tiempo, claridad y una respuesta humana.</p>
+<footer id="contacto" class="rounded-t-[2rem] bg-ink text-paper">
+  <div class="mx-auto max-w-[1440px] px-5 pb-10 pt-16 md:px-10 lg:pt-24">
+    <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-12">
+      <div class="md:col-span-2 lg:col-span-5">
+        <p class="font-display text-[clamp(2.5rem,5vw,4.25rem)] leading-none tracking-[-.04em]">Vitrina</p>
+        <p class="mt-4 max-w-[34ch] text-paper/75">Despensa de importados en la Zona Rosa de Bogotá.</p>
+      </div>
+      <div class="lg:col-span-3 lg:col-start-7">
+        <h2 class="font-semibold">Dirección</h2>
+        <p class="mt-2 max-w-[28ch] text-paper/75">Calle 81 # 11-32, Zona Rosa, Bogotá</p>
+      </div>
+      <div class="lg:col-span-3">
+        <h2 class="font-semibold">Horario</h2>
+        <dl class="mt-2 grid gap-2 text-paper/75">
+          
+          <div>
+            <dt class="text-paper">Lunes a sábado</dt>
+            <dd>8:00 a. m. a 7:00 p. m.</dd>
+          </div>
+          
+          <div>
+            <dt class="text-paper">Domingo</dt>
+            <dd>9:00 a. m. a 2:00 p. m.</dd>
+          </div>
+          
+        </dl>
+      </div>
+    </div>
+    <div class="mt-16 flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
+      <nav aria-label="Pie de página" class="flex flex-wrap gap-x-7 gap-y-2">
+        
+        <a href="./" class="font-medium underline decoration-transparent underline-offset-[6px] transition-colors duration-200 hover:decoration-paper">Inicio</a>
+        
+        <a href="./page" class="font-medium underline decoration-transparent underline-offset-[6px] transition-colors duration-200 hover:decoration-paper">Nosotros</a>
+        
+        <a href="./blog" class="font-medium underline decoration-transparent underline-offset-[6px] transition-colors duration-200 hover:decoration-paper">Blog</a>
+        
+      </nav>
+      <p class="text-sm text-paper/60">© 2026 Vitrina</p>
+    </div>
   </div>
-  
-  <div>
-    <strong>Visítanos</strong>
-    <p class="mt-2 max-w-[40ch]">Calle 81 # 11-32, Zona Rosa</p>
-    <a href="#" class="mt-3 inline-block font-bold underline decoration-paper/40 underline-offset-[5px] transition-colors duration-200 hover:decoration-paper">Cómo llegar</a>
-  </div>
-  
-  <div>
-    <strong>Escríbenos</strong>
-    <p class="mt-2 max-w-[40ch]">WhatsApp y línea directa durante el horario de atención.</p>
-    <a href="#" class="mt-3 inline-block font-bold underline decoration-paper/40 underline-offset-[5px] transition-colors duration-200 hover:decoration-paper">Abrir conversación</a>
-  </div>
-  
 </footer>
 
-<script>const menuToggle=document.getElementById('menu-toggle'),siteNav=document.getElementById('site-nav');menuToggle.addEventListener('click',()=>{const open=!siteNav.classList.toggle('hidden');siteNav.classList.toggle('flex',open);menuToggle.setAttribute('aria-expanded',open)})</script>
-</body>
+<script>const t=document.getElementById('menu-toggle'),n=document.getElementById('site-nav');t.addEventListener('click',()=>{const o=!n.classList.toggle('hidden');n.classList.toggle('flex',o);t.setAttribute('aria-expanded',o)});</script></body>
 </html>
